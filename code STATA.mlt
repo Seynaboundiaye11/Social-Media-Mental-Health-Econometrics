@@ -1,0 +1,693 @@
+<?xml version="1.0" standalone="no"?>
+<mlt LC_NUMERIC="C" version="7.33.0" title="Shotcut version 25.10.31" producer="main_bin">
+  <profile description="PAL 4:3 DV or DVD" width="1920" height="1080" progressive="1" sample_aspect_num="1" sample_aspect_den="1" display_aspect_num="16" display_aspect_den="9" frame_rate_num="25" frame_rate_den="1" colorspace="709"/>
+  <playlist id="main_bin">
+    <property name="xml_retain">1</property>
+  </playlist>
+  <producer id="black" in="00:00:00.000" out="00:08:27.960">
+    <property name="length">00:08:28.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">0</property>
+    <property name="aspect_ratio">1</property>
+    <property name="mlt_service">color</property>
+    <property name="mlt_image_format">rgba</property>
+    <property name="set.test_audio">0</property>
+  </producer>
+  <playlist id="background">
+    <entry producer="black" in="00:00:00.000" out="00:08:27.960"/>
+  </playlist>
+  <chain id="chain0" out="00:03:07.440">
+    <property name="length">00:03:07.480</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/gwena/Downloads/WhatsApp Audio 2025-11-11 at 09.42.13.mp4</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="meta.media.nb_streams">1</property>
+    <property name="meta.media.0.stream.type">audio</property>
+    <property name="meta.media.0.codec.sample_fmt">fltp</property>
+    <property name="meta.media.0.codec.sample_rate">48000</property>
+    <property name="meta.media.0.codec.channels">1</property>
+    <property name="meta.media.0.codec.layout">mono</property>
+    <property name="meta.media.0.codec.name">aac</property>
+    <property name="meta.media.0.codec.long_name">AAC (Advanced Audio Coding)</property>
+    <property name="meta.media.0.codec.bit_rate">64973</property>
+    <property name="meta.attr.0.stream.vendor_id.markup">[0][0][0][0]</property>
+    <property name="meta.attr.major_brand.markup">mp42</property>
+    <property name="meta.attr.minor_version.markup">0</property>
+    <property name="meta.attr.compatible_brands.markup">mp42isom</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="astream">0</property>
+    <property name="creation_time">2025-11-11T12:36:04</property>
+    <property name="shotcut:skipConvert">0</property>
+    <property name="shotcut:hash">a2ddf83676320929575bdb333d541d76</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">WhatsApp Audio 2025-11-11 at 09.42.13.mp4</property>
+    <property name="xml">was here</property>
+  </chain>
+  <chain id="chain1" out="00:03:06.800">
+    <property name="length">00:03:06.840</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/gwena/Downloads/WhatsApp Audio 2025-11-11 at 13.29.33.mp4</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="meta.media.nb_streams">1</property>
+    <property name="meta.media.0.stream.type">audio</property>
+    <property name="meta.media.0.codec.sample_fmt">fltp</property>
+    <property name="meta.media.0.codec.sample_rate">48000</property>
+    <property name="meta.media.0.codec.channels">2</property>
+    <property name="meta.media.0.codec.layout">stereo</property>
+    <property name="meta.media.0.codec.name">aac</property>
+    <property name="meta.media.0.codec.long_name">AAC (Advanced Audio Coding)</property>
+    <property name="meta.media.0.codec.bit_rate">128019</property>
+    <property name="meta.attr.0.stream.creation_time.markup">2025-11-11T12:29:07.000000Z</property>
+    <property name="meta.attr.0.stream.language.markup">eng</property>
+    <property name="meta.attr.0.stream.handler_name.markup">SoundHandle</property>
+    <property name="meta.attr.0.stream.vendor_id.markup">[0][0][0][0]</property>
+    <property name="meta.attr.major_brand.markup">mp42</property>
+    <property name="meta.attr.minor_version.markup">0</property>
+    <property name="meta.attr.compatible_brands.markup">isommp42</property>
+    <property name="meta.attr.creation_time.markup">2025-11-11T12:29:07.000000Z</property>
+    <property name="meta.attr.com.android.version.markup">14</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="creation_time">2025-11-11T12:29:07</property>
+    <property name="astream">0</property>
+    <property name="shotcut:skipConvert">0</property>
+    <property name="shotcut:hash">d53ae4f6533520c3dc302f239a3a7c4c</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">WhatsApp Audio 2025-11-11 at 13.29.33.mp4</property>
+    <property name="xml">was here</property>
+  </chain>
+  <chain id="chain2" out="00:02:13.640">
+    <property name="length">00:02:13.680</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/gwena/Downloads/WhatsApp Audio 2025-11-10 at 15.27.57.mpeg</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="meta.media.nb_streams">1</property>
+    <property name="meta.media.0.stream.type">audio</property>
+    <property name="meta.media.0.codec.sample_fmt">fltp</property>
+    <property name="meta.media.0.codec.sample_rate">48000</property>
+    <property name="meta.media.0.codec.channels">2</property>
+    <property name="meta.media.0.codec.layout">stereo</property>
+    <property name="meta.media.0.codec.name">mp3float</property>
+    <property name="meta.media.0.codec.long_name">MP3 (MPEG audio layer 3)</property>
+    <property name="meta.media.0.codec.bit_rate">104141</property>
+    <property name="meta.attr.0.stream.encoder.markup">Lavc58.13</property>
+    <property name="meta.attr.major_brand.markup">iso4</property>
+    <property name="meta.attr.minor_version.markup">0</property>
+    <property name="meta.attr.compatible_brands.markup">iso4isomobs1iso2avc1mp41</property>
+    <property name="meta.attr.encoder.markup">Lavf58.76.100</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="creation_time">2025-11-11T12:37:00</property>
+    <property name="astream">0</property>
+    <property name="shotcut:skipConvert">0</property>
+    <property name="shotcut:hash">1a762fba1dd544dfef932ec7bdb596e4</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">WhatsApp Audio 2025-11-10 at 15.27.57.mpeg</property>
+    <property name="xml">was here</property>
+  </chain>
+  <playlist id="playlist0">
+    <property name="shotcut:video">1</property>
+    <property name="shotcut:name">V1</property>
+    <entry producer="chain0" in="00:00:00.000" out="00:03:07.440"/>
+    <entry producer="chain1" in="00:00:00.000" out="00:03:06.800"/>
+    <entry producer="chain2" in="00:00:00.000" out="00:02:13.640"/>
+  </playlist>
+  <producer id="producer0" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/gwena/Documents/Nohan exam/slide 1.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="format">2</property>
+    <property name="meta.media.width">2560</property>
+    <property name="meta.media.height">1440</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2025-11-11T12:45:23</property>
+    <property name="shotcut:skipConvert">0</property>
+    <property name="shotcut:caption">slide 1.png</property>
+    <property name="shotcut:hash">c30e6d977b8e95b8bfb9b47487923181</property>
+    <property name="ignore_points">0</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer1" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/gwena/Documents/Nohan exam/slide 2.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="format">2</property>
+    <property name="meta.media.width">2560</property>
+    <property name="meta.media.height">1440</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2025-11-11T12:46:31</property>
+    <property name="shotcut:skipConvert">0</property>
+    <property name="shotcut:caption">slide 2.png</property>
+    <property name="shotcut:hash">db0461e189f831248e581b1ad30001ab</property>
+    <property name="ignore_points">0</property>
+    <property name="xml">was here</property>
+  </producer>
+  <tractor id="tractor0" in="00:00:00.000" out="00:00:00.760">
+    <property name="shotcut:transition">lumaMix</property>
+    <track producer="producer0" in="00:00:41.480" out="00:00:42.240"/>
+    <track producer="producer1" in="00:00:00.000" out="00:00:00.760"/>
+    <transition id="transition0" out="00:00:00.760">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="factory">loader</property>
+      <property name="mlt_service">luma</property>
+      <property name="alpha_over">1</property>
+      <property name="fix_background_alpha">1</property>
+    </transition>
+    <transition id="transition1" out="00:00:00.760">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
+      <property name="start">-1</property>
+      <property name="accepts_blanks">1</property>
+    </transition>
+  </tractor>
+  <producer id="producer2" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/gwena/Documents/Nohan exam/slide 3.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="format">2</property>
+    <property name="meta.media.width">2560</property>
+    <property name="meta.media.height">1440</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2025-11-11T12:47:07</property>
+    <property name="shotcut:skipConvert">0</property>
+    <property name="shotcut:caption">slide 3.png</property>
+    <property name="shotcut:hash">66a38265e3da540d52375c2231b824b6</property>
+    <property name="ignore_points">0</property>
+    <property name="xml">was here</property>
+  </producer>
+  <tractor id="tractor1" in="00:00:00.000" out="00:00:00.440">
+    <property name="shotcut:transition">lumaMix</property>
+    <track producer="producer1" in="00:00:30.200" out="00:00:30.640"/>
+    <track producer="producer2" in="00:00:00.000" out="00:00:00.440"/>
+    <transition id="transition2" out="00:00:00.440">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="factory">loader</property>
+      <property name="mlt_service">luma</property>
+      <property name="alpha_over">1</property>
+      <property name="fix_background_alpha">1</property>
+    </transition>
+    <transition id="transition3" out="00:00:00.440">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
+      <property name="start">-1</property>
+      <property name="accepts_blanks">1</property>
+    </transition>
+  </tractor>
+  <producer id="producer3" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/gwena/Documents/Nohan exam/slide 4.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="format">2</property>
+    <property name="meta.media.width">2560</property>
+    <property name="meta.media.height">1440</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2025-11-11T12:47:50</property>
+    <property name="shotcut:skipConvert">0</property>
+    <property name="shotcut:caption">slide 4.png</property>
+    <property name="shotcut:hash">8215faa5467361ad908d8a981bfb4da6</property>
+    <property name="ignore_points">0</property>
+    <property name="xml">was here</property>
+  </producer>
+  <tractor id="tractor2" in="00:00:00.000" out="00:00:01.000">
+    <property name="shotcut:transition">lumaMix</property>
+    <track producer="producer2" in="00:00:29.240" out="00:00:30.240"/>
+    <track producer="producer3" in="00:00:00.000" out="00:00:01.000"/>
+    <transition id="transition4" out="00:00:01.000">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="factory">loader</property>
+      <property name="mlt_service">luma</property>
+      <property name="alpha_over">1</property>
+      <property name="fix_background_alpha">1</property>
+    </transition>
+    <transition id="transition5" out="00:00:01.000">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
+      <property name="start">-1</property>
+      <property name="accepts_blanks">1</property>
+    </transition>
+  </tractor>
+  <producer id="producer4" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/gwena/Documents/Nohan exam/slide 5.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="format">2</property>
+    <property name="meta.media.width">2560</property>
+    <property name="meta.media.height">1440</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2025-11-11T12:48:26</property>
+    <property name="shotcut:skipConvert">0</property>
+    <property name="shotcut:caption">slide 5.png</property>
+    <property name="shotcut:hash">a12662fec35c807f7a001b907f5b6af8</property>
+    <property name="ignore_points">0</property>
+    <property name="xml">was here</property>
+  </producer>
+  <tractor id="tractor3" in="00:00:00.000" out="00:00:00.600">
+    <property name="shotcut:transition">lumaMix</property>
+    <track producer="producer3" in="00:00:28.520" out="00:00:29.120"/>
+    <track producer="producer4" in="00:00:00.000" out="00:00:00.600"/>
+    <transition id="transition6" out="00:00:00.600">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="factory">loader</property>
+      <property name="mlt_service">luma</property>
+      <property name="alpha_over">1</property>
+      <property name="fix_background_alpha">1</property>
+    </transition>
+    <transition id="transition7" out="00:00:00.600">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
+      <property name="start">-1</property>
+      <property name="accepts_blanks">1</property>
+    </transition>
+  </tractor>
+  <producer id="producer5" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/gwena/Documents/Nohan exam/slide 6.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="format">2</property>
+    <property name="meta.media.width">2560</property>
+    <property name="meta.media.height">1440</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2025-11-11T12:49:00</property>
+    <property name="shotcut:skipConvert">0</property>
+    <property name="shotcut:caption">slide 6.png</property>
+    <property name="shotcut:hash">8f7eb25ff6cb2ea8f9df0a3c4b66a782</property>
+    <property name="ignore_points">0</property>
+    <property name="xml">was here</property>
+  </producer>
+  <tractor id="tractor4" in="00:00:00.000" out="00:00:00.560">
+    <property name="shotcut:transition">lumaMix</property>
+    <track producer="producer4" in="00:00:57.400" out="00:00:57.960"/>
+    <track producer="producer5" in="00:00:00.000" out="00:00:00.560"/>
+    <transition id="transition8" out="00:00:00.560">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="factory">loader</property>
+      <property name="mlt_service">luma</property>
+      <property name="alpha_over">1</property>
+      <property name="fix_background_alpha">1</property>
+    </transition>
+    <transition id="transition9" out="00:00:00.560">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
+      <property name="start">-1</property>
+      <property name="accepts_blanks">1</property>
+    </transition>
+  </tractor>
+  <producer id="producer6" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/gwena/Documents/Nohan exam/slide 7.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="format">2</property>
+    <property name="meta.media.width">2560</property>
+    <property name="meta.media.height">1440</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2025-11-11T13:33:52</property>
+    <property name="shotcut:skipConvert">0</property>
+    <property name="shotcut:caption">slide 7.png</property>
+    <property name="shotcut:hash">2cdec39ba7a643e5f4da932ac83f17bc</property>
+    <property name="ignore_points">0</property>
+    <property name="xml">was here</property>
+  </producer>
+  <tractor id="tractor5" in="00:00:00.000" out="00:00:00.440">
+    <property name="shotcut:transition">lumaMix</property>
+    <track producer="producer5" in="00:00:45.360" out="00:00:45.800"/>
+    <track producer="producer6" in="00:00:00.000" out="00:00:00.440"/>
+    <transition id="transition10" out="00:00:00.440">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="factory">loader</property>
+      <property name="mlt_service">luma</property>
+      <property name="alpha_over">1</property>
+      <property name="fix_background_alpha">1</property>
+    </transition>
+    <transition id="transition11" out="00:00:00.440">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
+      <property name="start">-1</property>
+      <property name="accepts_blanks">1</property>
+    </transition>
+  </tractor>
+  <producer id="producer7" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/gwena/Documents/Nohan exam/slide 8.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="format">2</property>
+    <property name="meta.media.width">2560</property>
+    <property name="meta.media.height">1440</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2025-11-11T13:35:10</property>
+    <property name="shotcut:skipConvert">0</property>
+    <property name="shotcut:caption">slide 8.png</property>
+    <property name="shotcut:hash">bc58542a80c74bfd6fb01f85e3558dda</property>
+    <property name="ignore_points">0</property>
+    <property name="xml">was here</property>
+  </producer>
+  <tractor id="tractor6" in="00:00:00.000" out="00:00:00.400">
+    <property name="shotcut:transition">lumaMix</property>
+    <track producer="producer6" in="00:00:38.080" out="00:00:38.480"/>
+    <track producer="producer7" in="00:00:00.000" out="00:00:00.400"/>
+    <transition id="transition12" out="00:00:00.400">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="factory">loader</property>
+      <property name="mlt_service">luma</property>
+      <property name="alpha_over">1</property>
+      <property name="fix_background_alpha">1</property>
+    </transition>
+    <transition id="transition13" out="00:00:00.400">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
+      <property name="start">-1</property>
+      <property name="accepts_blanks">1</property>
+    </transition>
+  </tractor>
+  <producer id="producer8" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/gwena/Documents/Nohan exam/slide 9.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="format">2</property>
+    <property name="meta.media.width">2560</property>
+    <property name="meta.media.height">1440</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2025-11-11T12:50:03</property>
+    <property name="shotcut:skipConvert">0</property>
+    <property name="shotcut:caption">slide 9.png</property>
+    <property name="shotcut:hash">67d0c35e92bef01a2c91eea53765515d</property>
+    <property name="ignore_points">0</property>
+    <property name="xml">was here</property>
+  </producer>
+  <tractor id="tractor7" in="00:00:00.000" out="00:00:00.800">
+    <property name="shotcut:transition">lumaMix</property>
+    <track producer="producer7" in="00:00:58.760" out="00:00:59.560"/>
+    <track producer="producer8" in="00:00:00.000" out="00:00:00.800"/>
+    <transition id="transition14" out="00:00:00.800">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="factory">loader</property>
+      <property name="mlt_service">luma</property>
+      <property name="alpha_over">1</property>
+      <property name="fix_background_alpha">1</property>
+    </transition>
+    <transition id="transition15" out="00:00:00.800">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
+      <property name="start">-1</property>
+      <property name="accepts_blanks">1</property>
+    </transition>
+  </tractor>
+  <producer id="producer9" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/gwena/Documents/Nohan exam/slide 10.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="format">2</property>
+    <property name="meta.media.width">2560</property>
+    <property name="meta.media.height">1440</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2025-11-11T12:50:42</property>
+    <property name="shotcut:skipConvert">0</property>
+    <property name="shotcut:caption">slide 10.png</property>
+    <property name="shotcut:hash">5cdcbfd0fe99255715b940948cbddc90</property>
+    <property name="ignore_points">0</property>
+    <property name="xml">was here</property>
+  </producer>
+  <tractor id="tractor8" in="00:00:00.000" out="00:00:00.320">
+    <property name="shotcut:transition">lumaMix</property>
+    <track producer="producer8" in="00:00:35.560" out="00:00:35.880"/>
+    <track producer="producer9" in="00:00:00.000" out="00:00:00.320"/>
+    <transition id="transition16" out="00:00:00.320">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="factory">loader</property>
+      <property name="mlt_service">luma</property>
+      <property name="alpha_over">1</property>
+      <property name="fix_background_alpha">1</property>
+    </transition>
+    <transition id="transition17" out="00:00:00.320">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
+      <property name="start">-1</property>
+      <property name="accepts_blanks">1</property>
+    </transition>
+  </tractor>
+  <producer id="producer10" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/gwena/Documents/Nohan exam/slide 11.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="format">2</property>
+    <property name="meta.media.width">2560</property>
+    <property name="meta.media.height">1440</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2025-11-11T12:51:30</property>
+    <property name="shotcut:skipConvert">0</property>
+    <property name="shotcut:caption">slide 11.png</property>
+    <property name="shotcut:hash">50709fd0d8c505be09c88fc3018c6fb1</property>
+    <property name="ignore_points">0</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer11" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/gwena/Documents/Nohan exam/slide 13.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="format">2</property>
+    <property name="meta.media.width">2560</property>
+    <property name="meta.media.height">1440</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2025-11-11T13:59:03</property>
+    <property name="shotcut:skipConvert">0</property>
+    <property name="shotcut:caption">slide 13.png</property>
+    <property name="shotcut:hash">54ee6d2cfb955b05dd3da4be2de59247</property>
+    <property name="ignore_points">0</property>
+    <property name="xml">was here</property>
+  </producer>
+  <tractor id="tractor9" in="00:00:00.000" out="00:00:00.680">
+    <property name="shotcut:transition">lumaMix</property>
+    <track producer="producer10" in="00:01:20.320" out="00:01:21.000"/>
+    <track producer="producer11" in="00:00:00.000" out="00:00:00.680"/>
+    <transition id="transition18" out="00:00:00.680">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="factory">loader</property>
+      <property name="mlt_service">luma</property>
+      <property name="alpha_over">1</property>
+      <property name="fix_background_alpha">1</property>
+    </transition>
+    <transition id="transition19" out="00:00:00.680">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="start">-1</property>
+      <property name="accepts_blanks">1</property>
+      <property name="mlt_service">mix</property>
+    </transition>
+  </tractor>
+  <producer id="producer12" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/gwena/Documents/Nohan exam/slide 12.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="format">2</property>
+    <property name="meta.media.width">2560</property>
+    <property name="meta.media.height">1440</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2025-11-11T12:53:11</property>
+    <property name="shotcut:skipConvert">0</property>
+    <property name="shotcut:caption">slide 12.png</property>
+    <property name="shotcut:hash">7d035eb8f37fdb99738514c4f5edd5b0</property>
+    <property name="ignore_points">0</property>
+    <property name="xml">was here</property>
+  </producer>
+  <tractor id="tractor10" in="00:00:00.000" out="00:00:00.560">
+    <property name="shotcut:transition">lumaMix</property>
+    <track producer="producer11" in="00:00:40.000" out="00:00:40.560"/>
+    <track producer="producer12" in="00:00:00.000" out="00:00:00.560"/>
+    <transition id="transition20" out="00:00:00.560">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="factory">loader</property>
+      <property name="mlt_service">luma</property>
+      <property name="alpha_over">1</property>
+      <property name="fix_background_alpha">1</property>
+    </transition>
+    <transition id="transition21" out="00:00:00.560">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="start">-1</property>
+      <property name="accepts_blanks">1</property>
+      <property name="mlt_service">mix</property>
+    </transition>
+  </tractor>
+  <playlist id="playlist1">
+    <property name="shotcut:video">1</property>
+    <property name="shotcut:name">V2</property>
+    <blank length="00:00:00.040"/>
+    <entry producer="producer0" in="00:00:00.000" out="00:00:41.440"/>
+    <entry producer="tractor0" in="00:00:00.000" out="00:00:00.760"/>
+    <entry producer="producer1" in="00:00:00.800" out="00:00:30.160"/>
+    <entry producer="tractor1" in="00:00:00.000" out="00:00:00.440"/>
+    <entry producer="producer2" in="00:00:00.480" out="00:00:29.200"/>
+    <entry producer="tractor2" in="00:00:00.000" out="00:00:01.000"/>
+    <entry producer="producer3" in="00:00:01.040" out="00:00:28.480"/>
+    <entry producer="tractor3" in="00:00:00.000" out="00:00:00.600"/>
+    <entry producer="producer4" in="00:00:00.640" out="00:00:57.360"/>
+    <entry producer="tractor4" in="00:00:00.000" out="00:00:00.560"/>
+    <entry producer="producer5" in="00:00:00.600" out="00:00:45.320"/>
+    <entry producer="tractor5" in="00:00:00.000" out="00:00:00.440"/>
+    <entry producer="producer6" in="00:00:00.480" out="00:00:38.040"/>
+    <entry producer="tractor6" in="00:00:00.000" out="00:00:00.400"/>
+    <entry producer="producer7" in="00:00:00.440" out="00:00:58.720"/>
+    <entry producer="tractor7" in="00:00:00.000" out="00:00:00.800"/>
+    <entry producer="producer8" in="00:00:00.840" out="00:00:35.520"/>
+    <entry producer="tractor8" in="00:00:00.000" out="00:00:00.320"/>
+    <entry producer="producer9" in="00:00:00.360" out="00:00:05.840"/>
+    <entry producer="producer10" in="00:00:00.320" out="00:01:20.280"/>
+    <entry producer="tractor9" in="00:00:00.000" out="00:00:00.680"/>
+    <entry producer="producer11" in="00:00:00.720" out="00:00:39.960"/>
+    <entry producer="tractor10" in="00:00:00.000" out="00:00:00.560"/>
+    <entry producer="producer12" in="00:00:00.600" out="00:00:17.440"/>
+  </playlist>
+  <playlist id="playlist2">
+    <property name="shotcut:audio">1</property>
+    <property name="shotcut:name">A1</property>
+    <blank length="00:00:00.040"/>
+  </playlist>
+  <playlist id="playlist3">
+    <property name="shotcut:video">1</property>
+    <property name="shotcut:name">V3</property>
+    <blank length="00:00:00.040"/>
+  </playlist>
+  <tractor id="tractor11" title="Shotcut version 25.10.31" in="00:00:00.000" out="00:08:27.960">
+    <property name="shotcut">1</property>
+    <property name="shotcut:projectAudioChannels">2</property>
+    <property name="shotcut:projectFolder">1</property>
+    <track producer="background"/>
+    <track producer="playlist0"/>
+    <track producer="playlist1"/>
+    <track producer="playlist2" hide="video"/>
+    <track producer="playlist3"/>
+    <transition id="transition22">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+    <transition id="transition23">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="compositing">0</property>
+      <property name="distort">0</property>
+      <property name="rotate_center">0</property>
+      <property name="mlt_service">qtblend</property>
+      <property name="threads">0</property>
+      <property name="disable">1</property>
+    </transition>
+    <transition id="transition24">
+      <property name="a_track">0</property>
+      <property name="b_track">2</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+    <transition id="transition25">
+      <property name="a_track">1</property>
+      <property name="b_track">2</property>
+      <property name="compositing">0</property>
+      <property name="distort">0</property>
+      <property name="rotate_center">0</property>
+      <property name="mlt_service">qtblend</property>
+      <property name="threads">0</property>
+      <property name="disable">0</property>
+    </transition>
+    <transition id="transition26">
+      <property name="a_track">0</property>
+      <property name="b_track">3</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+    <transition id="transition27">
+      <property name="a_track">0</property>
+      <property name="b_track">4</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+    <transition id="transition28">
+      <property name="a_track">1</property>
+      <property name="b_track">4</property>
+      <property name="compositing">0</property>
+      <property name="distort">0</property>
+      <property name="rotate_center">0</property>
+      <property name="mlt_service">qtblend</property>
+      <property name="threads">0</property>
+      <property name="disable">0</property>
+    </transition>
+  </tractor>
+</mlt>
